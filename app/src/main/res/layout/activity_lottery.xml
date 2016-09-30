@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhaoxu.lottery.Activity.LotteryActivity">
+
+    <include
+        android:id="@+id/lottery_title"
+        layout="@layout/layout_top"
+        android:layout_alignParentTop="true">
+    </include>
+
+    <include
+        android:id="@+id/lottery_bottom"
+        layout="@layout/layout_bottom"
+        android:layout_alignParentBottom="true">
+    </include>
+
+    <include
+        android:id="@+id/lottery_middle"
+        layout="@layout/layout_middle"
+        android:layout_below="@id/lottery_title"
+        android:layout_above="@id/lottery_bottom">
+    </include>
+
+</RelativeLayout>

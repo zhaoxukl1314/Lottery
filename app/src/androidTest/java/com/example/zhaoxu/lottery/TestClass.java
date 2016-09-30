@@ -4,6 +4,8 @@ import android.test.AndroidTestCase;
 import android.test.InstrumentationTestCase;
 import android.util.Log;
 
+import com.example.zhaoxu.lottery.Bean.UserInfo;
+import com.example.zhaoxu.lottery.Engine.UserEngineImpl;
 import com.example.zhaoxu.lottery.Net.protocal.Element;
 import com.example.zhaoxu.lottery.Net.protocal.Message;
 import com.example.zhaoxu.lottery.Net.protocal.element.CurrentIssueElement;
@@ -16,7 +18,7 @@ public class TestClass extends AndroidTestCase {
     private static final String TAG = "TestClass";
 
     public void test() throws Exception {
-        getXml();
+        testLogin();
     }
 
     public void getXml() {
@@ -26,4 +28,14 @@ public class TestClass extends AndroidTestCase {
         String xml = message.getXML(element);
         Log.e(TAG, "zhaoxu xml : " + xml);
     }
+
+    public void testLogin() {
+        UserEngineImpl userEngine = new UserEngineImpl();
+        UserInfo userInfo = new UserInfo();
+        userInfo.setUsername("zhaoxu");
+        userInfo.setPassword("hahahahahaha");
+        Message login = userEngine.Login(userInfo);
+        Log.d(TAG,"errorCode" + login.getBody().getOelement().getErrorcode());
+    }
+
 }

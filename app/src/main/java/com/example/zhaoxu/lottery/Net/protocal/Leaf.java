@@ -9,6 +9,11 @@ import java.io.IOException;
  */
 public class Leaf {
     private String tagName;
+
+    public String getTagValue() {
+        return tagValue;
+    }
+
     private String tagValue;
 
     public void setTagValue(String tagValue) {

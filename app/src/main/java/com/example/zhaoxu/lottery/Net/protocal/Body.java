@@ -3,6 +3,7 @@ package com.example.zhaoxu.lottery.Net.protocal;
 import android.util.Xml;
 
 import com.example.zhaoxu.lottery.Contant.ConstantValue;
+import com.example.zhaoxu.lottery.Net.protocal.element.Oelement;
 import com.example.zhaoxu.lottery.Utils.DES;
 
 import org.apache.commons.lang3.StringUtils;
@@ -19,9 +20,29 @@ import java.util.List;
 public class Body {
     private List<Element> elements = new ArrayList<Element>();
 
+    public String getServiceBodyInsideDESInfo() {
+        return serviceBodyInsideDESInfo;
+    }
+
+    public void setServiceBodyInsideDESInfo(String serviceBodyInsideDESInfo) {
+        this.serviceBodyInsideDESInfo = serviceBodyInsideDESInfo;
+    }
+
+    private String serviceBodyInsideDESInfo;
+
     public List<Element> getElements() {
         return elements;
     }
+
+    public Oelement getOelement() {
+        return oelement;
+    }
+
+    public void setOelement(Oelement oelement) {
+        this.oelement = oelement;
+    }
+
+    private Oelement oelement = new Oelement();
 
     public void serializerBody(XmlSerializer serializer) {
         try {

@@ -18,6 +18,14 @@ public class Message {
     private Header header = new Header();
     private Body body = new Body();
 
+    public Header getHeader() {
+        return header;
+    }
+
+    public Body getBody() {
+        return body;
+    }
+
     public void serializeMessage(XmlSerializer serializer){
         try {
             serializer.startTag(null,"message");
