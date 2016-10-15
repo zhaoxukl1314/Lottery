@@ -18,7 +18,7 @@ public class TestClass extends AndroidTestCase {
     private static final String TAG = "TestClass";
 
     public void test() throws Exception {
-        testLogin();
+//        testLogin();
     }
 
     public void getXml() {
