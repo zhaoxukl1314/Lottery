@@ -6,14 +6,22 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.zhaoxu.lottery.Contant.ConstantValue;
 import com.example.zhaoxu.lottery.R;
+import com.example.zhaoxu.lottery.View.SecondUI;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by Administrator on 2016/10/7.
  */
-public class TitleManager {
+public class TitleManager implements Observer{
 
     private static TitleManager instance;
+    private Activity mActivity;
 
     private TitleManager() {
         //NOP
@@ -38,6 +46,7 @@ public class TitleManager {
     private TextView userInfo;// 用户信息
 
     public void initTitle(Activity activity) {
+        mActivity = activity;
         commonContainer = (RelativeLayout) activity.findViewById(R.id.top_common_container);
         unLoginContainer = (RelativeLayout) activity.findViewById(R.id.unLoginTitle);
         loginContainer = (RelativeLayout) activity.findViewById(R.id.top_login_title);
@@ -76,7 +85,8 @@ public class TitleManager {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                SecondUI secondUI = new SecondUI(mActivity);
+                MiddleManager.getInstance().changeUI(secondUI.getClass());
             }
         });
     }
@@ -98,5 +108,21 @@ public class TitleManager {
 
     public void changeTitle(String titleText) {
         titleContent.setText(titleText);
+    }
+
+    @Override
+    public void update(Observable observable, Object data) {
+        if (data != null && StringUtils.isNumeric(data.toString())) {
+            int id = Integer.parseInt(data.toString());
+            switch (id) {
+                case ConstantValue.VIEW_FIRST:
+                    showUnLoginContainer();
+                    break;
+
+                case ConstantValue.VIEW_SECOND:
+                    showCommonContainer();
+                    break;
+            }
+        }
     }
 }

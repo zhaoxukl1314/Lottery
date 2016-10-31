@@ -14,4 +14,6 @@ public abstract class BaseUI {
     }
 
     public abstract View getChild();
+
+    public abstract int getId();
 }

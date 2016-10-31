@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpclient-4.2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpclient-4.2.5_85766ffbfab384e69365f6aca5b8eed484807b0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-lang3-3.0-beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c3e5478c615df58fe04f946d4167b7cbd286c203">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0-beta_5262f0cbf834a0603ebb51e681a136a43feebc71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpmime-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6efc2f9df23c2ac4d3b701a11cab9f9fa6a641d4">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpmime-4.2.5_f211ff814d6f6dfb1247bceffdee808acc0f11b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_ced1bdf3920335280fd15e15aca33aee84c535ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpcore-4.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4_0ce4ad61ce7b84dc082b03f07d87fcf4b9f54029.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpclient-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpclient-4.2.5_85766ffbfab384e69365f6aca5b8eed484807b0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_ced1bdf3920335280fd15e15aca33aee84c535ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_d754dc2a1c5ca30cf25599f8e5d50cb2ff8e340e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_e1b2d29397305f2ba879cd468d8af3ffc278cfae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpcore-4.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4_0ce4ad61ce7b84dc082b03f07d87fcf4b9f54029.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2fe7ea66f30214aef44a81eab6316b78548590f">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/instant-run_167ae784c8a435dd639b0809b883395b3724db9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpmime-4.2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6efc2f9df23c2ac4d3b701a11cab9f9fa6a641d4">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpmime-4.2.5_f211ff814d6f6dfb1247bceffdee808acc0f11b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_e1b2d29397305f2ba879cd468d8af3ffc278cfae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_d754dc2a1c5ca30cf25599f8e5d50cb2ff8e340e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_cbea9731504dceeedc8593b6b4a1590120148f31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-lang3-3.0-beta.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c3e5478c615df58fe04f946d4167b7cbd286c203">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0-beta_5262f0cbf834a0603ebb51e681a136a43feebc71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_af99a43d6a204fcfad428e687b9dc470f0ee768f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_af99a43d6a204fcfad428e687b9dc470f0ee768f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_cbea9731504dceeedc8593b6b4a1590120148f31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-codec.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-codec_9fc7fde1e8df3945e4344031735c8495536df342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/fluent-hc-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7eda2ae9f77415cf92651191e2229eae2caf0b61">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/fluent-hc-4.2.5_ba917abe7cd1ee0dea7cacfa17ecc73ed5af2e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpclient-cache-4.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="313cfeb950089985994736aa08885711c56b7e1e">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.2.5_62f6a84e1ce90abdcc0cef910a085fa10a548da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/httpclient-cache-4.2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="313cfeb950089985994736aa08885711c56b7e1e">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.2.5_62f6a84e1ce90abdcc0cef910a085fa10a548da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_c6a2e75f71a122cd5c78bd8dc6aeb81b336da727.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="59b9a57fa9ff94782c7054520bd949f926bd712c">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_bd5436526e5babe01671ff5039287bc075489c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/fluent-hc-4.2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7eda2ae9f77415cf92651191e2229eae2caf0b61">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/fluent-hc-4.2.5_ba917abe7cd1ee0dea7cacfa17ecc73ed5af2e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-logging-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-logging-1.1.1_54ceb4844ff527205946550f00fd7d12262c644c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-codec.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-codec_9fc7fde1e8df3945e4344031735c8495536df342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/libs/commons-logging-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/commons-logging-1.1.1_54ceb4844ff527205946550f00fd7d12262c644c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/zhaoxukl1314/work/Android/Lottery/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_c6a2e75f71a122cd5c78bd8dc6aeb81b336da727.jar" />
+    </item>
+
+</items>

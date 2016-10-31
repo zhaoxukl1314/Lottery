@@ -6,14 +6,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.zhaoxu.lottery.Contant.ConstantValue;
+
 /**
  * Created by Administrator on 2016/10/9.
  */
-public class FirstUI {
+public class FirstUI extends BaseUI{
 
     private Context mContext;
 
     public FirstUI(Context context) {
+        super(context);
         mContext = context;
     }
 
@@ -24,5 +27,10 @@ public class FirstUI {
         textView.setText("这是第一个界面");
         textView.setBackgroundColor(Color.RED);
         return textView;
+    }
+
+    @Override
+    public int getId() {
+        return ConstantValue.VIEW_FIRST;
     }
 }

@@ -8,14 +8,20 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.zhaoxu.lottery.Contant.ConstantValue;
 import com.example.zhaoxu.lottery.R;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by Administrator on 2016/10/7.
  */
-public class BottomManager {
+public class BottomManager implements Observer{
 
-    protected static final String TAG = "BottomManager";
+    private static final String TAG = "BottomManager";
     /******************* 第一步：管理对象的创建(单例模式) ***************************************************/
     // 创建一个静态实例
     private static BottomManager instrance;
@@ -129,6 +135,22 @@ public class BottomManager {
      */
     public void changeGameBottomNotice(String notice) {
         playBottomNotice.setText(notice);
+    }
+
+    @Override
+    public void update(Observable observable, Object data) {
+        if (data != null && StringUtils.isNumeric(data.toString())) {
+            int id = Integer.parseInt(data.toString());
+            switch (id) {
+                case ConstantValue.VIEW_FIRST:
+                    showCommonBottom();
+                    break;
+
+                case ConstantValue.VIEW_SECOND:
+                    showGameBottom();
+                    break;
+            }
+        }
     }
 
     /*********************************************************************************************/

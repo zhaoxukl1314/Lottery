@@ -6,13 +6,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.zhaoxu.lottery.Contant.ConstantValue;
+
 /**
  * Created by Administrator on 2016/10/9.
  */
-public class SecondUI {
+public class SecondUI extends BaseUI{
     private Context mContext;
 
     public SecondUI(Context context) {
+        super(context);
         mContext = context;
     }
 
@@ -23,5 +26,10 @@ public class SecondUI {
         textView.setText("这是第二个界面");
         textView.setBackgroundColor(Color.BLUE);
         return textView;
+    }
+
+    @Override
+    public int getId() {
+        return ConstantValue.VIEW_SECOND;
     }
 }

@@ -6,6 +6,7 @@ import android.util.Xml;
 
 public interface ConstantValue {
     // class :public static final
+
     String ENCONDING="UTF-8";
     /**
      * 浠ｇ悊鐨刬d
