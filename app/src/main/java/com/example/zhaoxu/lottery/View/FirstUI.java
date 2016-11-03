@@ -20,6 +20,16 @@ public class FirstUI extends BaseUI{
         mContext = context;
     }
 
+    @Override
+    protected void initView() {
+
+    }
+
+    @Override
+    protected void setListener() {
+
+    }
+
     public View getChild() {
         TextView textView = new TextView(mContext);
         ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
@@ -32,5 +42,10 @@ public class FirstUI extends BaseUI{
     @Override
     public int getId() {
         return ConstantValue.VIEW_FIRST;
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }

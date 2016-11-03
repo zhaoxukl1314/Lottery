@@ -17,6 +17,7 @@ import com.example.zhaoxu.lottery.Net.protocal.Body;
 import com.example.zhaoxu.lottery.R;
 import com.example.zhaoxu.lottery.View.BaseUI;
 import com.example.zhaoxu.lottery.View.FirstUI;
+import com.example.zhaoxu.lottery.View.HallView;
 import com.example.zhaoxu.lottery.View.SecondUI;
 import com.example.zhaoxu.lottery.View.manager.BottomManager;
 import com.example.zhaoxu.lottery.View.manager.MiddleManager;
@@ -56,7 +57,7 @@ public class LotteryActivity extends Activity {
         MiddleManager.getInstance().addObserver(BottomManager.getInstrance());
 //        FirstUI firstUI = new FirstUI(this);
 //        middle.addView(firstUI.getChild());
-        MiddleManager.getInstance().changeUI(FirstUI.class);
+        MiddleManager.getInstance().changeUI(HallView.class);
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.example.zhaoxu.lottery.Net.protocal;
 import android.util.Xml;
 
 import com.example.zhaoxu.lottery.Contant.ConstantValue;
+import com.example.zhaoxu.lottery.Net.protocal.element.CurrentIssueElement;
 
 import org.xmlpull.v1.XmlSerializer;
 

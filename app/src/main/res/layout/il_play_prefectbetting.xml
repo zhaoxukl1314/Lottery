@@ -60,14 +60,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_subtraction" />
+                    android:background="@mipmap/id_subtraction" />
 
                 <TextView
                     android:id="@+id/ii_appnumbers"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_textview_bg"
+                    android:background="@mipmap/id_textview_bg"
                     android:inputType="number"
                     android:maxLength="2"
                     android:paddingLeft="5sp"
@@ -79,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_add" />
+                    android:background="@mipmap/id_add" />
             </LinearLayout>
 
             <TextView
@@ -121,14 +121,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_subtraction" />
+                    android:background="@mipmap/id_subtraction" />
 
                 <TextView
                     android:id="@+id/ii_issueflagNum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_textview_bg"
+                    android:background="@mipmap/id_textview_bg"
                     android:inputType="number"
                     android:maxLength="2"
                     android:paddingLeft="5sp"
@@ -140,7 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dip"
-                    android:background="@drawable/id_add" />
+                    android:background="@mipmap/id_add" />
             </LinearLayout>
 
             <TextView
@@ -170,7 +170,7 @@
             android:layout_marginBottom="10dip"
             android:adjustViewBounds="true"
             android:padding="0dip"
-            android:src="@drawable/id_purchase" />
+            android:src="@mipmap/id_purchase" />
     </LinearLayout>
 
     <ListView
